@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+.container {
+	padding-top: 15px;
+}
+h1, .menu-title {
+	text-transform: capitalize;
+	text-align: center;
+}
+section {
+	border: 1px solid black;
+	position: relative;
+	padding: 25px 10px 10px 10px;
+	margin: 15px;
+}
+.menu-title {
+	border: 1px solid black;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 80px;
+	font-size: 110%;
+	font-weight: 700;
+}
+.chicken-menu {
+	background-color: #FFBF00;
+}
+.chicken {
+	background-color: #F4FA58;
+}
+.beef-menu {
+	background-color: #B40404;
+}
+.beef {
+	background-color: #F5A9F2;
+}
+.sushi-menu {
+	background-color: #5882FA;
+}
+.sushi {
+	background-color: #81F7F3;
+}
+.beef-menu > p {
+	color: #FFFFFF;
+}
